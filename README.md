@@ -15,6 +15,8 @@ npm run dev
 npm run build
 ```
 
+``` bash
+
 Para ejecutar el proyecto solo basta con instalar las dependencias (npm install) y ejecutar el comando npm run dev
 
 El proyecto está incompleto, desafortunadamente no logré terminar todas las actividades como se especificaba en el documento y logré desarrollar cerca de un 50% del total de actividades.
@@ -35,9 +37,10 @@ Debido al tiempo, me fue imposible terminar siquiera la maquetación de la secci
 
 Los datos para poder logearse son:
 
-user: user1
-password: password
+#user: user1
+#password: password
 
 De cualquier forma agradezco la oportunidad brindad pues el ejercició me ayudo bastante para reforzar e incluso aprender mucho más de este framework, así como también me demostró cuales son aun mis puntos débiles.
 
 Quedo pendiente de cualquier comentario y poco a poco terminaré este ejercicio a como reto personal.
+```
