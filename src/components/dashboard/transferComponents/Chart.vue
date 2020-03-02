@@ -52,7 +52,8 @@ export default {
 
 <style>
     .vue-chart {
-        max-width: 80% ;
+        max-width: 400px;
+        margin: 0 auto;
     }
     .apexcharts-legend-text, .apexcharts-legend-marker {
         display: none !important;

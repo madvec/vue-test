@@ -8,14 +8,15 @@ import Transfer from '../components/dashboard/Transfer'
 Vue.use(Router);
 
 export const router = new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     { path: '/', component: HomePage },
+    { path: '/home', component: HomePage },
     { path: '/login', component: LoginPage },
     { path: '/transfer', component: Transfer },
 
     // otherwise redirect to home
-    { path: '*', redirect: '/' }
+    { name: "notfound", path: "*", beforeEnter(to, from, next) { next(false); window.location.replace(to.fullPath); } }
   ]
 });
 

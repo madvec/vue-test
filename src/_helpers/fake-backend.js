@@ -50,10 +50,107 @@ export function configureFakeBackend() {
                 }
             ]         
         },
-        { id: 2, username: 'user2', password: 'password', firstName: 'Alex', lastName: 'Vel' },
-        { id: 3, username: 'user3', password: 'password', firstName: 'Alex', lastName: 'Vel' },
-        { id: 4, username: 'user4', password: 'password', firstName: 'Alex', lastName: 'Vel' },
-        { id: 5, username: 'user5', password: 'password', firstName: 'Alex', lastName: 'Vel' },
+        { 
+            id: 2, username: 'user2', password: 'password', firstName: 'Ralph', lastName: 'Vel',
+            transactions: [
+                {
+                    idTransaction:'1',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'987654321',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                },
+                {
+                    idTransaction:'2',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'456879521',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                },
+                {
+                    idTransaction:'3',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'987654321',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                }
+            ],
+            balances:[
+                {
+                    account:"123456789",
+                    balance:{ currency:"€",value:"765095.54"},
+                    owner:'7612333392', createdAt:"2012-04-23T18:25:43.511Z"
+                },
+                {
+                    account:"123456788",
+                    balance:{ currency:"€",value:"765095.54"},
+                    owner:'7612333392', createdAt:"2012-04-23T18:25:43.511Z"
+                }
+            ]         
+        },
+        { 
+            id: 3, username: 'user3', password: 'password', firstName: 'Caro', lastName: 'Vel',
+            transactions: [
+                {
+                    idTransaction:'1',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'987654321',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                },
+                {
+                    idTransaction:'2',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'456879521',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                },
+                {
+                    idTransaction:'3',
+                    transaction:{
+                        fromAccount:'123456789',
+                        toAccount:'987654321',
+                        amount:{
+                            currency:'$',
+                            value:'876.88'
+                        }
+                    },
+                }
+            ],
+            balances:[
+                {
+                    account:"123456789",
+                    balance:{ currency:"€",value:"765095.54"},
+                    owner:'7612333392', createdAt:"2012-04-23T18:25:43.511Z"
+                },
+                {
+                    account:"123456788",
+                    balance:{ currency:"€",value:"765095.54"},
+                    owner:'7612333392', createdAt:"2012-04-23T18:25:43.511Z"
+                }
+            ]         
+        },
+        
     ];
     let realFetch = window.fetch;
     window.fetch = function (url, opts) {

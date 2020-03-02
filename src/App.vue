@@ -48,12 +48,22 @@ export default {
     text-align: center
   }
 
+  h3 {
+    color:rgb(72, 78, 78);
+    font-weight: 600;
+    font-size:16px
+  }
+
   .table-bordered {
     padding: 15px;
   }
 
   img {
     margin: 0 auto;
+  }
+
+  .btn {
+    margin: 0 5px;
   }
 
 </style>

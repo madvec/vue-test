@@ -3,7 +3,7 @@
         <nav>
             <ul>            
                 <li>Company</li>                                            
-                <li v-if="auth"><router-link active-class="active" to="/home">Home</router-link></li>
+                <li v-if="auth"><router-link active-class="active" to="/">Home</router-link></li>
                 <li v-if="auth"><router-link active-class="active" to="/transfer">Transfer</router-link></li>
                 <li v-if="auth"><router-link to="/login">Log Out</router-link></li>
             </ul>
