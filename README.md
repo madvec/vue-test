@@ -40,6 +40,12 @@ Los datos para poder logearse son:
 #user: user1
 #password: password
 
+#user: user2
+#password: password
+
+#user: user3
+#password: password
+
 De cualquier forma agradezco la oportunidad brindad pues el ejercició me ayudo bastante para reforzar e incluso aprender mucho más de este framework, así como también me demostró cuales son aun mis puntos débiles.
 
 Quedo pendiente de cualquier comentario y poco a poco terminaré este ejercicio a como reto personal.
