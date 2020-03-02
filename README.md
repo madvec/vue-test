@@ -19,6 +19,9 @@ npm run build
 
 Para ejecutar el proyecto solo basta con instalar las dependencias (npm install) y ejecutar el comando npm run dev
 
+De igual forma se subió a un sitio gratuito en AWS:
+http://madvec1dashboard1vue.s3-website.us-east-2.amazonaws.com/
+
 El proyecto está incompleto, desafortunadamente no logré terminar todas las actividades como se especificaba en el documento y logré desarrollar cerca de un 50% del total de actividades.
 
 De inicio se comenzó realizando un fake backend para que pudiera crear las peticiones dummy a la aplicación. Esta solución resultó contraproducente pues fue mucho trabajo y mucho tiempo utilizado para planear y ejecutar esta simulación de backend.
